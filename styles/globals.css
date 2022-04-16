@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/gagalin');
+
 html,
 body {
   padding: 0;
@@ -11,4 +13,8 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+.gagalin-font {
+  font-family: 'Gagalin', sans-serif;
 }
