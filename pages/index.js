@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 export default function Home() {
   return (
@@ -8,8 +10,9 @@ export default function Home() {
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-3xl text-red-500 ">Heya Life</h1>
 
+      <Navbar />
+      <Footer />
     </>
   )
 }
